@@ -4,7 +4,10 @@ import { Router } from '@reach/router'
 
 import Header from './Header'
 import Footer from './Footer'
-import Home from './Home'
+import Home from './pages/Home'
+import Resume from './pages/Resume'
+import Portfolio from './pages/Portfolio'
+import Contact from './pages/Contact'
 
 import './style/index.css'
 
@@ -21,6 +24,9 @@ class App extends Component {
                     <Col xs={12}>
                         <Router>
                             <Home path="/" />
+                            <Resume path="/resume" />
+                            <Portfolio path="/portfolio" />
+                            <Contact path="/contact" />
                         </Router>
                     </Col>
                 </Row>
