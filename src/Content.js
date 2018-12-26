@@ -8,7 +8,7 @@ const Content = styled.article`
     padding: 15px;
     font-size: larger;
     border-radius:10px;
-    box-shadow:0px 3px 5px 5px #000;
+    box-shadow:0px 3px 4px 4px linen;
 `
-
+// #000
 export default Content

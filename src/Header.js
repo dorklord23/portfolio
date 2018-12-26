@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import { PageHeader, Row, Col, Navbar, Nav } from 'react-bootstrap'
-import { Link } from '@reach/router'
+import { Link, Match } from '@reach/router'
 import styled from 'styled-components'
 
 const StyledLink = styled(Link)`
     font-size: large;
     font-weight: bold;
 `
+
+const isActive = ({ isCurrent }) => isCurrent ? { className: 'active' } : null
 
 class Header extends Component {
     render() {
@@ -38,7 +40,7 @@ class Header extends Component {
                                 </Navbar.Text>
                             </Nav>
                         </Navbar.Collapse>
-                    </Navbar>
+                     </Navbar>
                 </Row>
             </header>
         )

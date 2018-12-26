@@ -1,17 +1,22 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'react-bootstrap'
+import styled from 'styled-components'
 
 import Content from '../Content'
 
-class Resume extends Component {
-    componentDidMount() {
-        const link = document.getElementsByClassName('LI-view-profile')
+const Job = styled.span`
+    font-weight: bold;
+`
 
-        if (link) {
-            link.target = '_blank'
-            link.rel = 'noopener noreferrer'
-        }
-    }
+class Resume extends Component {
+    // componentDidMount() {
+    //     const link = document.getElementsByClassName('LI-view-profile')
+    //
+    //     if (link) {
+    //         link.target = '_blank'
+    //         link.rel = 'noopener noreferrer'
+    //     }
+    // }
 
     render() {
         return (
@@ -40,15 +45,15 @@ class Resume extends Component {
                         <section>
                             <h4>EXPERIENCE</h4>
                             <ul>
-                                <li>Frontend Developer at <a href="http://interaktiv.sg" target="_blank" rel="noopener noreferrer">InterAktiv Technology Pte Ltd</a> (2018&mdash;current)</li>
+                                <li><Job>Frontend Developer</Job> at <a href="http://interaktiv.sg" target="_blank" rel="noopener noreferrer">InterAktiv Technology Pte Ltd</a> (2018&mdash;current)</li>
                                 <p>
                                     I develop web-based apps in React and use Firebase and Salesforce.
                                 </p>
-                                <li>Freelance Web Developer at <a href="https://www.upwork.com/o/profiles/users/_~01651fea5110a6effb/" target="_blank" rel="noopener noreferrer">Upwork</a> (2017&mdash;current)</li>
+                                <li><Job>Full Stack Web Developer</Job> at <a href="https://www.upwork.com/o/profiles/users/_~01651fea5110a6effb/" target="_blank" rel="noopener noreferrer">Upwork</a> (2017&mdash;current)</li>
                                 <p>
                                     I help developing a website with Gatsby (added booking functionality)
                                 </p>
-                                <li>Backend Developer and Co-Founder at <a href="https://shipper.id" target="_blank" rel="noopener noreferrer">Shipper Indonesia</a> (2016&mdash;2017)</li>
+                                <li><Job>Backend Developer</Job> and <Job>Co-Founder</Job> at <a href="https://shipper.id" target="_blank" rel="noopener noreferrer">Shipper Indonesia</a> (2016&mdash;2017)</li>
                                 <p>
                                     I was one of the co-founders and have developed the API to aggregate delivery rates of various shipment services.
                                 </p>

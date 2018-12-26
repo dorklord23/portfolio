@@ -30,6 +30,7 @@ class App extends Component {
                         </Router>
                     </Col>
                 </Row>
+                <br />
                 <Row>
                     <Col xs={12}>
                         <Footer />
