@@ -16,7 +16,7 @@ class Resume extends Component {
     render() {
         return (
             <Row>
-                <Col sm={9}>
+                <Col sm={12}>
                     <Content>
                         <header>
                             <h2>
@@ -63,7 +63,7 @@ class Resume extends Component {
                         </section>
                     </Content>
                 </Col>
-                <Col sm={3}>
+                {/* <Col sm={3}>
                     <div
                         className="LI-profile-badge"
                         data-version="v1"
@@ -83,7 +83,7 @@ class Resume extends Component {
                             Tri Rumekso Anggie Wibowo
                         </a>
                     </div>
-                </Col>
+                </Col> */}
             </Row>
         )
     }
