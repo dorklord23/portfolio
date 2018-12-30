@@ -22,7 +22,7 @@ class Home extends Component {
                             I am currently working as Web Developer at <a href="http://interaktiv.sg" target="_blank" rel="noopener noreferrer">InterAktiv Technology Pte Ltd</a> and active as well as a freelancer in <a href="https://www.upwork.com/o/profiles/users/_~01651fea5110a6effb/" target="_blank" rel="noopener noreferrer">Upwork</a>. Most of the times, I use React and Express.js but I am open to use other technologies if situation demands it. I have confidence in my learning capabilities so I am up for new technologies/libraries.
                         </p>
                         <p>
-                            Please don't hesitate to contact me if you want to talk about something&mdash;be it job offers (I personally prefer remote ones nowadays) or maybe you just want to grab a coffe with me. I am always open to new possibilities!
+                            Please don't hesitate to contact me if you want to talk about something&mdash;be it job offers (I personally prefer remote ones nowadays) or maybe you just want to grab a coffee with me. I am always open to new possibilities!
                         </p>
                     </Content>
                 </Col>

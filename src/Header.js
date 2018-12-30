@@ -16,7 +16,7 @@ class Header extends Component {
             <header>
                 <Row>
                     <Col xs={12}>
-                        <PageHeader>TRI R.A. WIBOWO</PageHeader>
+                        <PageHeader>TRI RUMEKSO ANGGIE WIBOWO</PageHeader>
                     </Col>
                 </Row>
                 <Row>
