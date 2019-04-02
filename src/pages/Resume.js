@@ -39,17 +39,20 @@ class Resume extends Component {
                                 Proficient in Javascript (both server and client-side). I have developed multiple web-based apps in React and Express whether it is on private server or on SaaS platforms.
                             </p>
                             <p>
+                                I have been developing an online platform to play <a href="http://www.animaprimerpg.com" target="_blank" rel="noopener noreferrer">Anima Prime</a>. It will consist of three components: a backend written in Go; a mobile app written with Flutter; and a web app written with React. Currently writing <a href="https://github.com/dorklord23/anima-prime-api" target="_blank" rel="noopener noreferrer">the backend</a>.
+</p>
+                            <p>
                                 My tech stack includes&mdash;but is not limited to&mdash;Javascript, Node.js, React, Redux, Apache, Nginx, MySQL, MongoDB, Firebase, and Salesforce.
                             </p>
                         </section>
                         <section>
                             <h4>EXPERIENCE</h4>
                             <ul>
-                                <li><Job>Frontend Developer</Job> at <a href="http://interaktiv.sg" target="_blank" rel="noopener noreferrer">InterAktiv Technology Pte Ltd</a> (2018&mdash;current)</li>
+                                <li><Job>Frontend Developer</Job> at <a href="http://interaktiv.sg" target="_blank" rel="noopener noreferrer">InterAktiv Technology Pte Ltd</a> (2018&mdash;2019)</li>
                                 <p>
                                     I develop web-based apps in React and use Firebase and Salesforce.
                                 </p>
-                                <li><Job>Full Stack Web Developer</Job> at <a href="https://www.upwork.com/o/profiles/users/_~01651fea5110a6effb/" target="_blank" rel="noopener noreferrer">Upwork</a> (2017&mdash;current)</li>
+                                <li><a href="https://www.upwork.com/o/profiles/users/_~01651fea5110a6effb/" target="_blank" rel="noopener noreferrer"><Job>Freelance Full Stack Web Developer</Job></a> (2017&mdash;current)</li>
                                 <p>
                                     I help developing a website with Gatsby (added booking functionality)
                                 </p>
@@ -61,10 +64,10 @@ class Resume extends Component {
                         </section>
                         <section>
                             <h4>EDUCATION</h4>
-                                <ul>
-                                    <li>Bachelor of Public Administration at Open University of Indonesia (2018&mdash;2022)</li>
-                                    <li>Associate degree of Computer Science at Politeknik Perdana Mandiri, Indonesia (2008&mdash;2011)</li>
-                                </ul>
+                            <ul>
+                                <li>Bachelor of Public Administration at Open University of Indonesia (2018&mdash;2022)</li>
+                                <li>Associate degree of Computer Science at Politeknik Perdana Mandiri, Indonesia (2008&mdash;2011)</li>
+                            </ul>
                         </section>
                     </Content>
                 </Col>
