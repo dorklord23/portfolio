@@ -8,6 +8,7 @@ import dx from '../images/dx.png'
 import gudangFurniture from '../images/gudangfurniture.png'
 import scrubs from '../images/scrubs.png'
 import spmf from '../images/spmf.png'
+import smOnline from '../images/sm-online.png'
 
 const Footnote = styled.p`
     font-size: small;
@@ -45,19 +46,27 @@ class Portfolio extends Component {
                                         <Image src={gudangFurniture} thumbnail responsive />
                                     </a>
                                 </ImageContainer>
-                            </ul>
-                            <br />
-                            <li>ONGOING</li>
-                            <ul>
                                 <li>Scrubs Car Detailing <sup>*</sup></li>
-                                    <ImageContainer>
-                                        <Image src={scrubs} thumbnail responsive />
-                                    </ImageContainer>
+                                <ImageContainer>
+                                    <Image src={scrubs} thumbnail responsive />
+                                </ImageContainer>
                                 <li>Straits Times Pocket Money Fund <sup>*</sup></li>
                                 <ImageContainer>
                                     <Image src={spmf} thumbnail responsive />
                                 </ImageContainer>
+                                <li>
+                                    SM Online
+                                </li>
+                                <ImageContainer>
+                                    <a href="https://play.google.com/store/apps/details?id=com.smonline" target="_blank" rel="noopener noreferrer">
+                                        <Image src={smOnline} thumbnail responsive />
+                                    </a>
+                                </ImageContainer>
                             </ul>
+                            <br />
+                            {/* <li>ONGOING</li>
+                            <ul>
+                            </ul> */}
                         </ol>
                         <Footnote>* I can't disclose the URL because it's a private/in-development app.</Footnote>
                     </Content>
